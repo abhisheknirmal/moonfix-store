@@ -189,3 +189,25 @@ footer a {
 footer a:hover {
   color: #ffae00;
 }
+
+/* Service Card Images */
+.service-card img {
+  width: 100%;          /* fills the card width */
+  max-width: 300px;     /* prevents images from being too wide */
+  height: 180px;        /* fixed height */
+  object-fit: cover;    /* crops nicely without distortion */
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;   /* centers image inside card */
+}
+
+/* About Section Image */
+.about-container img {
+  width: 80%;
+  max-width: 600px;
+  height: auto;         /* keeps aspect ratio */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
